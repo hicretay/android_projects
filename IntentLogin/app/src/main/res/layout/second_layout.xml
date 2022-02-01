@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtGelenDeger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İkinci ekran"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="35sp"/>
+    <Button
+        android:id="@+id/btnSiteyeGit"
+        android:text="Siteye git"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnGeri"
+        android:text="Geri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

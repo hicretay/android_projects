@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_marginLeft="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MainActivity"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X: "
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/etX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4">
+            <requestFocus/>
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y: "
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/etY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDegerYolla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Değer Gönder"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/txtSonuc"
+        android:text="X + Y = "
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

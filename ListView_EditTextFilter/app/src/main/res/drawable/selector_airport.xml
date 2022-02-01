@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/koyu_kirmizi"
+        android:state_pressed="true"
+        android:state_enabled="true"/>
+
+    <item android:drawable="@mipmap/acik_kirmizi"
+        android:state_enabled="true"/>
+
+</selector>

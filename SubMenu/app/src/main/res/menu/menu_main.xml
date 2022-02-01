@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.submenu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Ayarlar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mahalleler"
+        android:orderInCategory="100"
+        android:title="Mahalleler"
+        app:showAsAction="never" >
+          <menu>
+              <group>
+                  <item android:id="@+id/mahalleler_sub1"
+                        android:orderInCategory="100"
+                        android:title="Mahalleler_sub1"/>
+                  <item android:id="@+id/mahalleler_sub2"
+                        android:orderInCategory="100"
+                        android:title="Mahalleler_sub2"/>
+              </group>
+          </menu>
+    </item>
+
+    <item
+        android:id="@+id/ilceler"
+        android:orderInCategory="100"
+        android:title="İlceler"
+        app:showAsAction="never"/>
+</menu>

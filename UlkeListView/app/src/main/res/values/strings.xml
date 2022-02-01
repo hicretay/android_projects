@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UlkeListView</string>
+    <string-array name="arrCountries">
+        <item>Turkiye</item>
+        <item>Almanya</item>
+        <item>KKTC</item>
+    </string-array>
+</resources>

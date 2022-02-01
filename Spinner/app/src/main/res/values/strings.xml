@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="ulkeSec">ulke seciniz</string>
+    <string-array name="ulke_dizisi">
+        <item>Turkiye</item>
+        <item>Bulgaristan</item>
+        <item>Yunanistan</item>
+        <item>Sirbistan</item>
+        <item>Ermenistan</item>
+        <item>Azerbaycan</item>
+        <item>Rusya</item>
+    </string-array>
+</resources>

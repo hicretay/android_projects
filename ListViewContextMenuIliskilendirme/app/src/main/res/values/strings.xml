@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListViewContextMenuIliskilendirme</string>
+
+    <string-array name="names">
+        <item>hicret</item>
+        <item>hilal</item>
+        <item>nur</item>
+        <item>hayat</item>
+        <item>hatice</item>
+    </string-array>
+
+</resources>

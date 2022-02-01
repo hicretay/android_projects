@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnOrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:text="Orange"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+    </Button>
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:text="Blue"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+    </Button>
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:text="Green"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true">
+    </Button>
+
+    <Button
+        android:id="@+id/btnPurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPurple"
+        android:text="Purple"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+    </Button>
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:text="Red"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        android:layout_centerInParent="true">
+    </Button>
+
+    <Button
+        android:id="@+id/btnRed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:text="Red"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/btnBlue"
+        android:layout_toLeftOf="@id/btnBlue"
+        android:layout_toRightOf="@id/btnOrange">
+    </Button>
+
+    <Button
+        android:id="@+id/btnOrange2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:text="Orange"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        android:layout_above="@id/btnRed"
+        android:layout_toLeftOf="@id/btnRed">
+    </Button>
+
+    <Button
+        android:id="@+id/btnBlue2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:text="Blue"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        android:layout_above="@id/btnRed"
+        android:layout_toRightOf="@id/btnRed"
+        android:layout_alignParentRight="true">
+    </Button>
+
+    <Button
+        android:id="@+id/btnGreen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:text="Green"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/btnRed"
+        android:layout_toLeftOf="@id/btnRed">
+    </Button>
+
+    <Button
+        android:id="@+id/btnPurple2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPurple"
+        android:text="Purple"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold|italic"
+        android:layout_below="@id/btnRed"
+        android:layout_toRightOf="@id/btnRed"
+        android:layout_toLeftOf="@id/btnPurple"
+        android:layout_above="@id/btnPurple">
+    </Button>
+
+
+
+</RelativeLayout>
